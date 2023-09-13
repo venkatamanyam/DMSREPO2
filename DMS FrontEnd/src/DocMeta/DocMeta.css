@@ -1,0 +1,156 @@
+.nav-bar {
+    height: 100px;
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.doc-head {
+    margin: 0;
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+}
+
+.userid {
+    margin-right: 30px;
+    color: black;
+}
+
+.doc-meta-form {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px
+}
+
+.text label {
+    width: 200px;
+    text-align: left;
+}
+
+.text input {
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.text select {
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.text .file-input-wrapper {
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.sub-btn {
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.sub-btn:hover {
+    cursor: pointer;
+    background-color: azure;
+    transition: .7s;
+}
+
+.logout-btn {
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin: 10px 30px 0 0;
+}
+
+.logout-btn:hover {
+    background-color: rgb(175, 62, 62);
+    cursor: pointer;
+    transition: .5s;
+    color: white;
+    font-weight: bold;
+}
+
+.add-emp-btn {
+    font-size: 16px;
+    padding: 8px 12px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    float: right;
+    margin: 10px 20px 0 0;
+}
+
+.add-emp-btn:hover {
+    background-color: rgba(58, 54, 54, 0.795);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.search-bar {
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.search-btn {
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 12px;
+    background-color: bisque;
+}
+
+.search-btn:hover {
+    cursor: pointer;
+    background-color: rgb(228, 194, 153);
+    transition: .5s;
+}
+
+.search-container {
+    position: relative;
+}
+
+
+.suggestions-list {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
+.suggestions-list li {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.suggestions-list li:hover {
+    background-color: #f0f0f0;
+}

@@ -1,0 +1,41 @@
+.dept_doc_nav{
+    height: 100px;
+    background-color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dept_doc_nav h1{
+    margin-left: 30px;
+}
+
+.back_btn{
+    padding: 8px 12px;
+    border-radius: 12px;
+    background-color: bisque;
+    font-size: 16px;
+    margin-right: 30px;
+}
+
+.back_btn:hover{
+    cursor: pointer;
+    background-color: rgb(216, 188, 153);
+    transition: .5s;
+}
+
+table,th,td{
+    width: 90vw;
+    margin: 50px auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: black;
+    color: white;
+    opacity: .5;  
+}

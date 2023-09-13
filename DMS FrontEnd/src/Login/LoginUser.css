@@ -1,0 +1,67 @@
+.log-nav{
+    height: 100px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+}
+
+.nav-head{
+    margin-left: 30px;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login-form{
+    width: 400px;
+    margin: auto;
+    color: white;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.text label{
+    font-size: 20px;
+}
+
+.text input{
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.log-btn{
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.log-btn:hover{
+    cursor: pointer;
+    background-color: rgb(56, 98, 134);
+    color: white;
+    transition: .5s;
+    opacity: .5;
+}
+
+.login-page{
+    background-color: rgb(48, 43, 43);
+    text-align: center;
+    height: 100vh;
+}
+
+.fgt-pswd{
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.fgt-pswd:hover{
+    background-color: aquamarine;
+    transition: .9s;
+    cursor: pointer;
+}
